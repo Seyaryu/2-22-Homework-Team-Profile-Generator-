@@ -1,0 +1,41 @@
+#navbar {
+    background-color: red;
+    color: white;
+    align-content: center;
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: visible;
+}
+
+.card {
+    border: solid black 3px;
+    border-radius: 5px;
+    background-color: lightgrey; 
+    margin: 2em;
+    width: 20em;
+    align-items: center;
+}
+
+.card-header {
+    background-color: blue;
+    color: white;
+    padding: 1em;
+}
+
+.card ul {
+    list-style-type: none;
+    margin: 2em 2em 2em 0em;
+}
+
+.card ul li {
+    border: grey solid 1px;
+    background-color: white;
+    color: black;
+}
